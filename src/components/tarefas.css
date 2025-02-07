@@ -1,0 +1,40 @@
+.delete{
+    color: red;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+  
+  }
+  .delete:hover{
+   
+    scale: 1.2;
+    transition: all 0.3s;
+  }
+  .delete, .check{
+  color: red;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+
+}
+.delete:hover ,.check:hover{
+ 
+  scale: 1.2;
+  transition: all 0.3s;
+}
+
+.check{
+    color: #3cd300;
+    
+}
+.opt-list{
+display: flex;
+flex-direction: row-reverse;
+gap: 15px;
+}
+.checked{
+    text-decoration: line-through;
+    color: #3cd300;
+}
